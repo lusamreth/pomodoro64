@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/lusamreth/pomodoro32.git/static/css/main.62a79a78.css",
-    "main.js": "/lusamreth/pomodoro32.git/static/js/main.d821ebf1.js",
-    "static/media/sea.jpg": "/lusamreth/pomodoro32.git/static/media/sea.c8ee46c36ac9640f0568.jpg",
-    "index.html": "/lusamreth/pomodoro32.git/index.html",
-    "main.62a79a78.css.map": "/lusamreth/pomodoro32.git/static/css/main.62a79a78.css.map",
-    "main.d821ebf1.js.map": "/lusamreth/pomodoro32.git/static/js/main.d821ebf1.js.map"
+    "main.css": "/pomodoro64/static/css/main.f0b577af.css",
+    "main.js": "/pomodoro64/static/js/main.bbd53352.js",
+    "static/media/sea.jpg": "/pomodoro64/static/media/sea.c8ee46c36ac9640f0568.jpg",
+    "index.html": "/pomodoro64/index.html",
+    "main.f0b577af.css.map": "/pomodoro64/static/css/main.f0b577af.css.map",
+    "main.bbd53352.js.map": "/pomodoro64/static/js/main.bbd53352.js.map"
   },
   "entrypoints": [
-    "static/css/main.62a79a78.css",
-    "static/js/main.d821ebf1.js"
+    "static/css/main.f0b577af.css",
+    "static/js/main.bbd53352.js"
   ]
 }
