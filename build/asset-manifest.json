@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/lusamreth/pomodoro32.git/static/css/main.62a79a78.css",
+    "main.js": "/lusamreth/pomodoro32.git/static/js/main.74ea6ac8.js",
+    "static/media/sea.jpg": "/lusamreth/pomodoro32.git/static/media/sea.c8ee46c36ac9640f0568.jpg",
+    "index.html": "/lusamreth/pomodoro32.git/index.html",
+    "main.62a79a78.css.map": "/lusamreth/pomodoro32.git/static/css/main.62a79a78.css.map",
+    "main.74ea6ac8.js.map": "/lusamreth/pomodoro32.git/static/js/main.74ea6ac8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62a79a78.css",
+    "static/js/main.74ea6ac8.js"
+  ]
+}

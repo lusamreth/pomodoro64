@@ -1,0 +1,148 @@
+* {
+    padding:0 ;
+    margin : 0;
+    border:none;
+}
+
+.handmove {
+    animation : playermove 3s infinite;
+}
+
+.center  {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.wrapper {
+    height:100vh;
+}
+.board {
+    margin:50px;
+    border-radius : 5px;
+    border:1px solid black;
+    background-color: 	#ff7b7b;
+    position:relative;
+}
+
+
+.circle-small {
+    position:absolute;
+    width:100px;
+    height:100px;
+    left:80%;
+    top:10%;
+    background-color:pink;
+    z-index:3;
+}
+
+.vinyl-container{
+    object-fit : cover;
+    background-repeat:no-repeat;
+    position:relative;
+    padding:50px;
+    width:500px;
+    /* border:1px solid black; */
+}
+
+.center-circle::after {
+    position:absolute;
+    background-color:rgba(0,0,0,0);
+    border:5px solid rgba(0,0,0,0.5);
+    content:'';
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    z-index:1;
+}
+
+.center-circle::before{
+    position:absolute;
+    background-color:rgba(0,0,0,0);
+    border:10px solid rgba(0,0,0,0.5);
+    content:'';
+    width:285px;
+    height:285px;
+    border-radius:50%;
+    left:50%;
+    top:50%;
+    transform:translate(-50%, -50%);
+    z-index:1;
+}
+.circle {
+    border-radius :50%;
+}
+
+.spinning-record{
+    background-image: url("./sea.jpg");
+    /* background-color:black; */
+    animation: rotate 3s linear infinite;
+      /* animation-play-state: paused; */
+    /* background-color : rgba(0,0,0,0); */
+    /* background-color : white ; */
+    object-fit:cover;
+      /* Rotate the circle */
+      /* transform: rotate(-105deg); */
+}
+
+.circle p { 
+    transform: rotate(360deg);
+}
+
+@keyframes playermove{
+  from {
+    transform: translate(0%,0%);
+  }
+  to {
+    /* right:33.5%; */
+    /* top:39%; */
+    transform: translate(0%, -10%) rotate(45deg);
+    /* transform: rotate(55deg); */
+  }
+}
+
+@keyframes handmove {
+  from {
+    transform: translate(0%,0%);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.glowing{ 
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+/* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+    /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
+}
+
+.backshadow { 
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.deepshadow { 
+    /* box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px; */
+box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+}
+
+.vin { 
+    padding:10px 30px ;
+    border-radius:5px;
+    letter-spacing:12px;
+    color:white;
+    background-color:pink;
+    border:none;
+    margin:15px;
+}
+

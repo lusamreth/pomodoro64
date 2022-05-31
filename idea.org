@@ -1,0 +1,11 @@
+- Could be a pomodoro app that has parallax background 
+- first page simply ask if you want to study ? 
+- if yes redirect to other page with timer (25mns) : 
+  - has option for selecting music
+  - has option for soothing music / whitenoise ; 
+- Has option to reset timer 
+- After 20 mns pass ; we will move to break time ; 
+  - Interval can be dynamic 
+- has 4 phase in total 
+
+

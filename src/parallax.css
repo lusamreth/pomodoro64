@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main {
+    background-color:#8D63E6;
+}
+.time-list { 
+    display:flex ; 
+    flex-direction:row;
+    justify-content:center;
+    margin:15px 15px;
+}
+
+
+.pomodoro-time {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius:3px;
+    height:400px;
+    background-color: 	#ff7b7b;
+    max-width:450px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pomodoro-time {
+    width:350px;
+  }
+  .time-list {
+      margin:0;
+      padding:15px
+  }
+  .time-list > div {
+      margin:10px 10px;
+      font-size:0.9rem
+  } 
+}
+@media only screen and (min-width: 600px)  {
+  .time-list > div {
+      margin:15px;
+
+      font-size:1rem
+  } 
+}
+.time-list > div {
+    background-color : #F5B458;
+    padding:5px;
+    border-radius :5px;
+    color:white;
+    cursor:pointer;
+    transition:.2s;
+}
+.time-type:active { 
+    font-size:15px;
+    background-color:green;
+}
+.time-list > .txt {
+    color:white
+}
+.timer-section { 
+    margin-top:5px;
+}
+
+.timer-wrapper {
+    border-radius:5px;
+    padding:50px;
+    border:1px solid white;
+    width:200px;
+
+}
+
+.timer {
+    font-size:4em;
+    color:white;
+}
+
+.pomodero-btn {
+    background-color:#DE7145;
+    color:white;
+    border:none;
+    margin-top:8px;
+    padding:10px 15px;
+    border-radius:5px;
+}
+.vin {
+    position:absolute;
+    top:0;
+    left:0
+}
